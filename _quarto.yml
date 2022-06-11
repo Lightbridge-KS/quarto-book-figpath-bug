@@ -1,0 +1,20 @@
+project:
+  type: book
+
+book:
+  title: "Quarto debug figure path"
+  author: "Kittipos Sirivongrungson"
+  date: "6/11/2022"
+  chapters:
+    - index.qmd
+    - subdir/intro.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  docx: default
+
+
+

@@ -1,0 +1,26 @@
+# Introduction
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```
+
+## Plot
+
+
+```{r}
+#| label: fig-cars
+#| fig-cap: distance vs speed
+plot(cars)
+```
+
+For MS Word output, Quarto can't find this plot path because `figure-docx` doesn't exist in `_book/subdir/intro_files`.
+
+The following error message is generated.
+
+```
+[WARNING] Could not fetch resource intro_files/figure-docx/fig-cars-1.png: replacing image with description
+```
