@@ -7,3 +7,12 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 ```{r}
 1 + 1
 ```
+
+## Plot
+
+```{r}
+#| label: fig-iris-ok
+#| fig-cap: Sepal Length vs Sepal Width
+plot(iris$Sepal.Length, iris$Sepal.Width)
+```
+

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Quarto debug figure path",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\nplot(iris$Sepal.Length, iris$Sepal.Width)\n\n\n\n\nFigure 1: Sepal Length vs Sepal Width"
   },
   {
     "objectID": "subdir/intro.html",

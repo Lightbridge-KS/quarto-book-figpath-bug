@@ -12,7 +12,7 @@ See @knuth84 for additional discussion of literate programming.
 
 
 ```{r}
-#| label: fig-cars
+#| label: fig-cars-bug
 #| fig-cap: distance vs speed
 plot(cars)
 ```
