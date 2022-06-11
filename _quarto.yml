@@ -7,7 +7,7 @@ book:
   date: "6/11/2022"
   chapters:
     - index.qmd
-    - subdir/intro.qmd
+    - subdir/intro.qmd # Figure problem in here
 
 bibliography: references.bib
 

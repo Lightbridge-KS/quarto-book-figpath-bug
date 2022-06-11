@@ -10,6 +10,7 @@ See @knuth84 for additional discussion of literate programming.
 
 ## Plot
 
+This plot ([@fig-cars-bug]) not working for `docx` output, but `html` output OK.
 
 ```{r}
 #| label: fig-cars-bug
