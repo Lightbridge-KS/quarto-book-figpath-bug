@@ -10,18 +10,10 @@ See @knuth84 for additional discussion of literate programming.
 
 ## Plot
 
-This plot ([@fig-cars-bug]) not working for `docx` output, but `html` output OK.
+[@fig-cars-bug]
 
 ```{r}
 #| label: fig-cars-bug
 #| fig-cap: distance vs speed
 plot(cars)
-```
-
-For MS Word output, Quarto can't find this plot path because `figure-docx` doesn't exist in `_book/subdir/intro_files`.
-
-The following error message is generated.
-
-```
-[WARNING] Could not fetch resource intro_files/figure-docx/fig-cars-1.png: replacing image with description
 ```

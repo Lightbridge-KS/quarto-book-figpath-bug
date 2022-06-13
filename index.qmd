@@ -10,8 +10,6 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
 ## Plot
 
-This plot ([@fig-iris-ok]) for `docx` and `html` is working as expected.
-
 ```{r}
 #| label: fig-iris-ok
 #| fig-cap: Sepal Length vs Sepal Width
